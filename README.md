@@ -10,15 +10,15 @@ We have a farm simulator in which we have `Tractor` to harvest carrots. We also 
 
 So in our first scenario, we want to instantiate an object with the behaviors of both an `Employee` AND a `Customer`. With inheritance, we are limited, certainly in Objective-C, to picking a single super class. But with composition, we use categories to extend a class with as many behaviors as we might like. A `Person` can be extended with the behavior of `Employee` and the behavior of `Customer`.
 
-#Has-A vs. Is-A
+##Has-A vs. Is-A
 
 In our second example, we are very clearly presented a scenario in which composition makes more sense. Harvesting is an extension of both `Person` and `Tractor`. Both a `Tractor` and a `Person` can do much more than `harvest`, and the remainder of their behaviors (aka methods) are quite different. This is a good signal that we should use categories instead of inheritance. If, on the other hand, we had an instance where 
 
-#Customization vs. Added Functionality
+##Customization vs. Added Functionality
 
 Another way to make good decisions when deciding between inheritance and composition is the question: Customization or added functionality? When you are simply adding functionality, a category (composition) is your best bet. When you are customizing an object or group of objects that are of a type (e.g. a specific model of sports car), you likely want inheritance.
 
-#Remember: Extensions are stateless
+##Remember: Extensions are stateless
 
 While there are ways to get around the fact that categories do not allow you to add state (read: properties!) you should not plan to add state to your categories. In fact, if you eventually decide to learn Swift, you'll learn that you cannot make categories include state at all!
 
