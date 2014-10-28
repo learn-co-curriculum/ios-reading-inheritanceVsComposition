@@ -12,7 +12,7 @@ So in our first scenario, we want to instantiate an object with the behaviors of
 
 ##Has-A vs. Is-A
 
-In our second example, we are very clearly presented a scenario in which composition makes more sense. Harvesting is an extension of both `Person` and `Tractor`. Both a `Tractor` and a `Person` can do much more than `harvest`, and the remainder of their behaviors (aka methods) are quite different. This is a good signal that we should use categories instead of inheritance. If, on the other hand, we had an instance where 
+In our second example, we are very clearly presented a scenario in which composition makes more sense. Harvesting is an extension of both `Person` and `Tractor`. Both a `Tractor` and a `Person` can do much more than `harvest`, and the remainder of their behaviors (aka methods) are quite different. This is a good signal that we should use categories instead of inheritance. If, on the other hand, we had an instance which had all of the behaviors and properties of another class, we might start to consider one the parent class to the other.
 
 ##Customization vs. Added Functionality
 
