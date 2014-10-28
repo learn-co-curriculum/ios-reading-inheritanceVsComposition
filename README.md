@@ -1,6 +1,6 @@
 #Inheritance vs. Composition
 
-So you've built a program in which you have a `People` class. You also have an `Employee` class. And a `Customer` class. Both inherit from `People`. But what happens when a given `Person` is an `Employee` who wants to buy something with their `employeeDiscount`? Wouldn't they be a `Customer` then, who can engage in a `Transaction` with the `Company`?
+So you've built a program in which you have a `Person` class. You also have an `Employee` class. And a `Customer` class. Both inherit from `Person`. But what happens when a given `Person` is an `Employee` who wants to buy something with their `employeeDiscount`? Wouldn't they be a `Customer` then, who can engage in a `Transaction` with the `Company`?
 
 Alternatively, consider the following:
 
