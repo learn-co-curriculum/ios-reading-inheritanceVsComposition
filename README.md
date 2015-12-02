@@ -22,3 +22,5 @@ Another way to make good decisions when deciding between inheritance and composi
 
 While there are ways to get around the fact that categories do not allow you to add state (read: properties!) you should not plan to add state to your categories. In fact, if you eventually decide to learn Swift, you'll learn that you cannot make categories include state at all!
 
+
+<a href='https://learn.co/lessons/ios-reading-inheritanceVsComposition' data-visibility='hidden'>View this lesson on Learn.co</a>
